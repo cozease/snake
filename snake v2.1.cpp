@@ -209,7 +209,7 @@ void GameDraw(){
     }
     //智慧草
     if(drug.flag){
-        setfillcolor(RGB(95,158,160));
+        setfillcolor(RGB(rand()%240,rand()%200,rand()%144));
         solidcircle(drug.x,drug.y,drug.r);
     }
     //AUTO状态
